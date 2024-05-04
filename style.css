@@ -294,3 +294,43 @@ header img{
     display: grid;
    
 }
+footer{
+    background: #DE742BE5;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer h2{
+    font-size: 38px;
+}
+.ful1{
+    display: flex;
+    gap: 50px;
+}
+.ful1 li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+}
+.ful1 li a{
+    transition: .2s;
+}
+.ful1 li a:hover{
+    scale: 1.05;
+}
+.ful2{
+    display: grid;
+    grid-gap: 10px 0px;
+}
+.ful2-mgs{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.ful2-mgs img{
+    cursor: pointer;
+}
