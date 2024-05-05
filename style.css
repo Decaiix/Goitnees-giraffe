@@ -301,6 +301,141 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 }
+
+.team-section{
+    
+    min-height:1080px;
+    background: #DE742BE5;
+}
+.team-section h3{
+    padding: 90px 0 0 90px;
+    color: white;
+}
+.team-section h2{
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: .5px;
+    text-align: center;
+}
+
+.ts-arrows img{
+    user-select: none;
+    cursor: pointer;
+}
+.arrows{
+    cursor: pointer;
+}
+.workers-ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-top: 64px;
+    width: fit-content;
+    margin: auto;
+    gap: 32px;
+    justify-content: center;
+    text-align: center;
+}
+.workers-ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    
+}
+.worker-name{
+    font-size: 25px;
+}
+.bcw-img img{
+width: 450px;
+border-radius: 14px;
+}
+.worker-desc{
+    font-size: 20px;
+}
+.small-card-worker{
+    height: 690px;
+    background-color: white;
+    border-radius: 14px;
+    width: 350px;
+    height: 650px;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+}
+.small-card-worker img{
+    width: 350px;
+    border-radius: 14px;
+}
+.big-card-worker img{
+    width: 400px;
+    border-radius: 14px;
+}
+.big-card-worker{
+    background-color: white;
+    width: 400px;
+    border-radius: 14px;
+    height: 750px;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+}
+
+.comments-section{
+    min-height: 600px;
+
+}
+.comments-section h3{
+    padding: 90px 0 0 90px;
+    color: #DE742BE5;
+}
+.comments-section h2{
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: .5px;
+    text-align: center;
+}
+.container{
+    padding-top: 60px;
+    align-items: center;
+    display: flex;
+    gap: 60px;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.header-comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    padding: 50px 80px;
+    background-color:#DE742BE5 ;
+    border-radius: 20px;
+}
+.header-comment{
+    border-bottom: 2px white solid;
+}
+
+.user-name{
+    font-size: 22px;
+}
+.who-user{
+    font-size: 17px;
+}
+.main-comment{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.giraffe-comm{
+    width: 50px;
+}
+.ls-arrow{
+    cursor: pointer;
+    width: 60px;
+}
+    /* ---------  footer -------- */
 footer h2{
     font-size: 38px;
 }
