@@ -359,8 +359,7 @@ border-radius: 14px;
     border-radius: 14px;
     width: 350px;
     height: 650px;
-    word-wrap: break-word;
-    flex-wrap: wrap;
+    align-items: center;
 }
 .small-card-worker img{
     width: 350px;
@@ -374,9 +373,8 @@ border-radius: 14px;
     background-color: white;
     width: 400px;
     border-radius: 14px;
-    height: 750px;
-    word-wrap: break-word;
-    flex-wrap: wrap;
+    height: 800px;
+    align-items: center;
 }
 
 .comments-section{
